@@ -1,0 +1,31 @@
+
+#position {width:10px; padding-left:20px;padding-bottom:20px;}
+
+
+.mydnew_sidel { width:200px; display:inline;float:left; }
+.mydnew_sidel_title { position:relative;}
+.mydnew_sidel_title h3 {background:rgb(153,255,204); border:2px rgb(162,250,204) solid; line-height:26px; height:26px; padding:1px 0 0 10px; font-size:17px;font-weight:bold;}
+.mydnew_sidel_title h3 a { position:relative; left:0; top:0; right:auto; color:#5b5b5b;}
+.mydnew_sidel_title h3 a:hover, .mydnew_sidel_title h3 a.current { color:#009c74;}
+.mydnew_sidel_title a { position:absolute; right:11px; top:8px;}
+
+.mydnew_sidel .mydnew_sidel .my_content { line-height:26px; background:#f0fdf1;border:1px solid #a4d7ca; border-top:none; width:168px;}
+.mydnew_sidel li { padding-right:12px;}
+
+.mydnew_sidel ul { border:1px solid #a4d7ca; }
+.mydnew_sidel li a:hover {color:#009c74;}
+.mydnew_sidel li a.current, .mydnew_sidel li a.current:hover { color:#009c74; font-weight:bold;}
+.mydnew_sidel li a { position:relative; display:inline-block; padding-left:11px; color:#404040; width:144px; line-height:26px;}/*dry100914 錦맣*/
+
+#__main_right{margin:0 auto;margin-left:50px;}
+#__wish_search{width:800px;margin-left:30px;}
+#__wish_search h2 b{font-size:20px;color:rgb(0,204,153);font-family: 幼圆 ;}
+#__wish_search h2 span{font-size:20px;color:black;font-family: 幼圆 ;}
+#__wish_search temp_navi_search{float:right;}
+
+
+
+#view{width:1000px;padding-left:30px;margin-left:40px;padding-top:20px;}
+#view ul li {margin-left:50px; line-height:1.9;height:120px; border-bottom:2px dashed rgb(178,178,178)}
+#view ul li span { float:right;margin-top:30px;}
+#view ul li span a{color:#579f11;margin-top:20px}

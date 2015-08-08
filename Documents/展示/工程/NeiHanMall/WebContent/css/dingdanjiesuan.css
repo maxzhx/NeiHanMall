@@ -1,0 +1,61 @@
+#info_box
+{
+	width:800px;
+	border:solid 1px;
+	font-size:12px;
+	font-family:Verdana; line-height:2.0;
+	margin:0 auto;
+	margin-top:5px;
+}
+
+#info_inbox
+{
+	margin-left:30px;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+#font_bold
+{
+	font-size:15px;
+	font-weight:bold;
+
+	
+}
+
+#tijiao
+{
+	margin-top:20px;
+	margin-buttom:50px;
+	margin-left:550px;
+	
+}
+
+#modify
+{
+	margin-left:650px;
+}
+
+#listbox{width:780px;margin:0 auto;margin-top:25px;}
+	#listbox span{width:150px;
+	margin:0;padding:5px 10px 10px 10px;
+	border:solid 2px #EEE5DE;
+	display:block;float:left;
+	height:20px;
+	font-weight:light;
+	border-left:none;border-right:none;border-top:none;
+	}
+
+#money
+{
+	margin-left:520px;
+	line-weight:2.0;
+}
+
+#moneyall
+{
+	font-weight:bold;
+	color:#FF0000;
+	margin-left:520px;
+	line-weight:2.0;
+}

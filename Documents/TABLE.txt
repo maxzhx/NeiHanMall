@@ -1,0 +1,142 @@
+用户表:
+UTYPE1表示顾客,2表示管理员
+
+create table users(
+Usid int primary key,
+Uusername varchar(10),
+Upassword varchar(20),
+Uemail varchar(20),
+Utelephone varchar(20),
+Urname varchar(20),
+Urtelephone varchar(20),
+Uraddress varchar(100),
+Utype number(1)
+)
+
+
+商品表:
+GID表示商品ID,Gno表示商品编号(方便同类物品的不同颜色,大小),GREST表示库存数量
+GTYPE表示类型,Gdiscription描述信息
+IMAGE信息可根据GID直接在文件夹中搜索
+
+create table goods(
+Gid int primary key,
+Gno int, 
+Gname varchar(64),
+Grest int,
+Gprice decimal,
+Gcolor varchar(20),
+Gsize varchar(5),
+Gtype varchar(20),
+Gdescription varchar(4000)
+)
+
+购物车物品表:
+USID表示用户,GID表示商品,CNUM表示数量
+create table cart_item(
+CIid int primary key,
+Usid int,
+Gid int,
+CInum int
+)
+
+(gid,usid) -> cinum
+ciid -> cinum
+
+ciid <--> (usid,gid)
+ 
+订单表:
+OSTATE表示订单状态
+0表示订单取消 1表示未支付,2表示已支付,3表示货到付款,4表示已发货,5表示已收货,  
+6表示已评价,7表示申请退换,8表示已确认退换
+create table orders(
+Oid int primary key,
+Usid int,
+Otelephone varchar(20),
+Oname varchar(20),
+OAddress varchar(64),
+Ostate number(1)
+)
+
+订单物品表:
+OID用于表示所属订单,GID表示物品,OINUM表示数量
+create table order_item(
+OIid int primary key,
+Oid int,
+Gid int,
+OInum int
+)
+
+//收藏夹物品表
+Flid表示收藏夹的id，USID表示用户,GID表示商品
+create table favourite_item(
+FIid int primary key,
+Usid int,
+Gid int
+);
+
+广告位:
+aloc表示橱窗位 gid表示对应的商品
+create table ads (
+Aid int primary key,
+aloc int,
+gid int
+)
+
+收货地址表:
+
+站内信表:
+
+
+
+
+主序列,用于创建订单物品,购物车物品流水号
+CREATE SEQUENCE HIBERNATE_SEQUENCE
+    START WITH 100000000
+    INCREMENT BY 1  
+    MINVALUE   100000000
+    MAXVALUE   999999999
+    NOCYCLE  
+    NOORDER  
+    CACHE 20;  
+
+用户ID序列:	
+CREATE SEQUENCE USERID_SEQUENCE
+    START WITH 1000000
+    INCREMENT BY 1  
+    NOMINVALUE
+    NOMAXVALUE
+    NOCYCLE  
+    NOORDER  
+    CACHE 20; 
+initialValue=1000000, allocationSize=1
+
+商品ID序列
+CREATE SEQUENCE GOODSID_SEQUENCE
+    START WITH 3000000
+    INCREMENT BY 1  
+    NOMINVALUE
+    NOMAXVALUE
+    NOCYCLE  
+    NOORDER  
+    CACHE 20; 
+initialValue=3000000, allocationSize=1
+
+订单ID序列
+CREATE SEQUENCE ORDERID_SEQUENCE
+    START WITH 5000000
+    INCREMENT BY 1  
+    NOMINVALUE
+    NOMAXVALUE
+    NOCYCLE  
+    NOORDER  
+    CACHE 20; 
+initialValue=5000000, allocationSize=1
+
+索引:
+create index goodstype on goods(gtype);
+create index adsloc on ads(aloc);
+create index usercart on cart_item(usid);
+create index userfavour on favourite_item(usid);
+create index userorder on orders(usid);
+create index orderitem on order_item(oid);

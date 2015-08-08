@@ -1,0 +1,158 @@
+
+
+#position {width:80%; margin:0;}
+#picpri{width:800px;margin:0 auto; }
+#image{width:350px; height:220px;  float:left;}
+#side{width:350px; height:220px;float:right;line-height:2.0;}
+#name{font-size:30px; font-weight:bold;}
+#button{width:200px;height:100px;margin-left:20px;	text-decoration:underline;font-size:15px;
+ }
+#button_b{width:200px;height:100px;}
+
+
+a:link{
+
+ color:#00F;
+
+ text-decoration:none;
+
+}
+
+a:visited {
+
+ color: #00F;
+
+ text-decoration:none;
+
+}
+
+a:hover {
+
+ color: #c00;
+
+ text-decoration:underline;
+
+}
+
+ul{
+
+ list-style:none;
+
+}
+
+.main{
+
+ clear:both;
+
+ padding:8px;
+
+ text-align:center;
+
+}
+
+
+
+
+#description{
+
+height: 800px;
+
+ width: 700px;
+
+ text-align:left;
+
+  margin-top:25px;
+ margin:0 auto;
+ 
+ margin-buttom:20px;
+
+
+}
+
+.menu1box{
+
+ position:relative;
+
+ overflow:hidden;
+
+ height:22px;
+
+ width:400px;
+
+ text-align:left;
+ margin-top:25px;
+ 
+
+}
+
+#menu1{
+
+ position:absolute;
+
+ top:0;
+
+ left:0;
+
+ z-index:1;
+
+}
+
+#menu1 li{
+
+ float:left;
+
+ display:block;
+
+ cursor:pointer;
+
+ width:72px;
+
+ text-align:center;
+
+ line-height:21px;
+
+ height:21px;
+
+}
+
+#menu1 li.hover{
+
+ background:#fff;
+
+ border-left:1px solid #333;
+
+ border-top:1px solid #333;
+
+ border-right:1px solid #333;
+
+}
+
+.main1box{
+	
+ clear:both;
+
+ margin-top:-1px;
+
+ border:1px solid #333;
+
+ height:800px;
+
+ width:600px;
+
+}
+
+#main1 ul{
+
+ display: none;
+
+}
+
+#main1 ul.block{
+
+ display: block;
+
+}
+
+/*…Ã∆∑œÍ«È*/
+#row { text-align:left;margin-top:5px;}
+#row dl dt { height:28px;weight:800px; font-size:20px; font-family:Verdana; font-weight:bold;line-height:28px; background:#EDEDED;}

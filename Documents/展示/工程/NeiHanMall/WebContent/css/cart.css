@@ -1,0 +1,25 @@
+
+#listhead{width:680px;background:#FFB90F;border-bottom:gray;color:white;margin-top:10px;margin-buttom:50px;}
+	#listbox{width:780px;margin:0 auto;margin-top:25px;}
+	#listbox span{width:120px;
+	margin:0;padding:5px 10px 10px 10px;
+	border:solid 2px #EEE5DE;
+	display:block;float:left;
+	height:100px;
+	font-weight:light;
+	border-left:none;border-right:none;border-top:none;
+	}
+	.image{
+	border:0; margin:0;
+	 padding:0; max-width:100px;
+	  width:expression(this.width>100?"100px":this.width);
+	   max-height:100px;
+	    height:expression(this.height>100?"100px":this.height); 
+	}
+
+
+#gouwu
+{
+	margin-left:400px;
+}
+

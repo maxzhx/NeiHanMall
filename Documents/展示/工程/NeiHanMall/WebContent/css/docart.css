@@ -1,0 +1,14 @@
+body { margin:0 auto; font-size:12px; font-family:Verdana; line-height:1.5;}
+
+
+
+#left{ width:486px; height:150px;border:1px solid #FFA500;float:left;	font-size:20px;
+	font-weight:bold;}
+#l_image{width:10px;margin-top:50px;margin-left:50px;float:left;}
+#l_name{float:right;margin-top:50px;margin-right:25px;text-align:left;color:#000000;}
+
+#right{width:310px; height:150px;border:1px solid #FFA500;float:right;	font-size:20px;
+	font-weight:bold;}
+#right_box{width:300px;margin-left:30px;margin-top:20px}
+#jixugouwu{text-align:right;margin-top:15px;float:left;;}
+#jiesuan{margin-top:15px;float:right;margin-right:35px;}

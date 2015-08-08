@@ -1,0 +1,18 @@
+#header{margin:0 auto}
+#headlogo {width:171px;height:71px;boder:1;backgroud:#FF0000;}
+#headmenu {width:80%;height:100px;float:left;}
+#contentdiv{width:1000px;margin:0 auto;}
+#registerbox{width:900px;border: 2px solid #FFB90F;}
+#registertable{margin:0 auto;width:900px;}
+#zhanwei{width:900px;height:100px;}
+#regdiv{width:600px;margin:0 auto;}
+#headmenu ul{list-style:none;margin:0px;padding:60px;}
+#headmenu ul li{float:right; padding: 0px 10px; height: 26px; line-height: 26px; border-bottom: 2px solid #CCC;margin:0px }
+#headmenu ul li a { color: #000; text-decoration: none; display:block;background:url(sysimages/common.jpg);width:88px;text-align:center;font-weight:bold;}
+#headmenu ul li a:hover {color:#FFF;background:url(sysimages/orange.jpg)}
+
+/*footer*/
+#footer { text-align:center;padding-bottom:10px;padding-left:20px;}
+#footer dl dt { height:28px; line-height:28px; background:#afafaf; color:#fff;}
+#footer dl dt a { font-weight:bold; color:#fff;}
+#footer dl dd { padding:8px 0; color:#666; line-height:2;}

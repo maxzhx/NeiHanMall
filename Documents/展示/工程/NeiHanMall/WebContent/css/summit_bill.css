@@ -1,0 +1,22 @@
+#info_box
+{
+	width:800px;
+	border:solid 1px #CFCFCF;
+	font-size:12px;
+	font-family:Verdana; line-height:2.0;
+	margin:0 auto;
+	margin-top:5px;
+}
+
+#info_inbox
+{
+	margin-buttom:30px;
+	margin-left:40px;
+	margin-top:40px;
+	margin-right:20px;
+}
+
+#s123
+{
+	margin-left:-23px;
+}
